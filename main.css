@@ -1,0 +1,324 @@
+body, html {
+    height: 100%;
+  }
+
+  
+  
+  .div1 {
+    background-image: url('./assets/candy.jpg');
+    height: 100vh; 
+      /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    padding: 12%;
+    display: flex;
+   
+  }
+
+  #navSection {
+      background-color: rgb(70, 66, 71);
+      opacity: 70%;
+      position: fixed;
+      width: 100vw;
+      z-index: 1;
+  }
+  .nav-link {
+      color: white;
+  }
+
+  .circle-responsive {
+    background-color:black;
+      /* width: 30vw; */
+    height: 100px;
+    border-radius: 50%;
+    padding-bottom: 50%;
+    width: 50%;
+    opacity: 60%;
+    justify-content: center;
+    margin: auto;
+  
+  }
+
+  .circle-content  {
+    color: white;
+    padding-top: 40%;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .circle-content h1 {
+      font-size: 3vw;
+  }
+
+
+
+
+
+ .text {
+     color: white;
+     font: arial;
+ }
+
+ .div2{
+     display: flexbox;
+     background-color: rgb(180, 221, 247);
+     padding-top: 125px;
+     padding-bottom: 125px;
+     height: 120vh;
+     
+ }
+
+.aboutMeSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.aboutMeSection h1 {
+    align-content:center;
+    color: white;
+    font-size: 3vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-sm {
+    color: rgb(70, 66, 71);
+    font-family: 'Montserrat', sans-serif;
+}
+   
+ 
+.skillSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    color: white;
+}
+.skillSection h2 {
+    color: white;
+    align-content:center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+}
+
+#pinkHover:hover {
+    color: rgb(218, 29, 155);   
+}
+
+#orangeHover:hover {
+    color: orangered;
+}
+#yellowHover:hover {
+    color: rgb(244, 208, 63);
+}
+#greenHover:hover {
+    color: green;
+}
+#blueHover:hover {
+    color: blue;
+}
+
+
+
+
+.portfolioSection {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding-bottom: 125px; */
+    background-color: rgb(174, 182, 191 );
+    border-bottom: 5px dotted rgb(180, 221, 247);
+}
+.portfolioSection h1 {
+    display: flex;
+    color: white;
+    font-size: 3vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portfolioSection h4 {
+    color: rgb(70, 66, 71);
+    font-size: 2vw;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cardSpace {
+    height: 200px;
+    width: 15px;
+    background-color:rgb(174, 182, 191 );
+}
+.card {
+    border: 2px dotted orange;
+}      
+  
+
+
+
+
+ 
+.expSection {
+    display: flexbox;
+    background-color: rgb(174, 182, 191);
+    height: 90vh;
+    width: 100%;
+    padding: 14%;
+    border-bottom: 5px dotted rgb(180, 221, 247) ;
+}
+
+.circle2 {
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   background-color: white;
+   justify-content: center;
+   padding-top: 130px;
+   border: 2px dotted  rgb(70, 66, 71);
+}
+
+.circle2:hover {
+background-color: rgb(218, 29, 155);
+color: white;   
+}
+
+.circle2 h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(70, 66, 71); 
+    font-size: 5vh;
+}
+
+.circle2 h2:hover {
+    color: white;
+    text-align: center;
+}
+
+
+.circle2 h1{
+    position:absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    
+  }
+
+  img {
+      filter: grayscale(100%) contrast(250%);
+     
+  }
+  img:hover {
+      filter: contrast(100%);
+  }
+
+.contactSection {
+      /* background-color:rgb(218, 220, 221); */
+      background-color: rgb(174, 182, 191); 
+      display: inline-flexbox;
+      height: 100vh;
+      padding: 50px;
+  }
+
+.contactSection h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+form p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+     margin: auto;
+ }
+
+ #submitBtn {
+    background-color: rgb(180, 221, 247);
+    border: 2px dotted  rgb(70, 66, 71) ;
+    color: rgb(70, 66, 71);
+    padding: 15px 32px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .3s;
+ }
+
+ #submitBtn:hover {
+     background-color: rgb(244, 208, 63);
+     color: rgb(70, 66, 71);
+     font-size: 3vh;
+ }
+ 
+
+ .inputStyle#name {
+     display: flexbox;
+     border-radius: 25px;
+     padding: 20px;
+     width: 300px;
+     height: 4vh;
+     border: 2px dotted  rgb(70, 66, 71);
+ }
+
+ .inputStyle#email {
+    display: flexbox;
+    border-radius: 25px;
+    padding: 20px;
+    width: 300px;
+    height: 4vh;
+    border: 2px dotted  rgb(70, 66, 71);
+ }
+
+ .inputStyle#message {
+    display: flexbox;
+    border-radius: 25px;
+    padding: 20px;
+    width: 50vh;
+    height: 30vh;
+    border: 2px dotted  rgb(70, 66, 71);
+ }
+
+
+ .footerSection {
+    background-image: url('./assets/candy.jpg');
+    height: 30vh; 
+    /* Create the parallax scrolling effect */
+  /* background-attachment: fixed; */
+    background-position: center;
+  /* background-repeat: no-repeat; */
+    background-size: cover;
+ }
+
+ .footer {
+     background-color: white;
+     color:rgb(70, 66, 71);
+     transition: .2s;
+ }
+
+ .footer i {
+     margin: 2vw;
+     
+ }
+
+ .footer i:hover {
+     color: green;
+     font-size: 6vw;
+    
+ }
+
+ 
+      
+
+
+
+
