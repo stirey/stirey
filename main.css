@@ -26,6 +26,14 @@ body, html {
   }
   .nav-link {
       color: white;
+      font-family: 'Montserrat', sans-serif;
+      transition: .3s;
+      font-size: 1vw;
+  }
+
+  .nav-link:hover {
+      color: rgb(244, 208, 63);
+      font-size: 1.5vw;
   }
 
   .circle-responsive {
@@ -65,11 +73,14 @@ body, html {
  .div2{
      display: flexbox;
      background-color: rgb(180, 221, 247);
-     padding-top: 125px;
+     padding-top: 80px;
      padding-bottom: 125px;
      height: 120vh;
      
  }
+#clifton {
+    font-size: 1vw;
+}
 
 .aboutMeSection {
     display: flex;
@@ -89,6 +100,7 @@ body, html {
 .col-sm {
     color: rgb(70, 66, 71);
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.25vw;
 }
    
  
@@ -97,7 +109,7 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 30px;
     color: white;
 }
 .skillSection h2 {
@@ -316,6 +328,21 @@ form p {
     
  }
 
+ a#cardBtn4 {
+     background-color: rgb(244, 208, 63) ;
+ }
+
+ a#cardBtn3 {
+    background-color: rgb(244, 208, 63) ;
+ }
+
+ a#cardBtn2 {
+    background-color: rgb(244, 208, 63) ;
+ }
+
+ a#cardBtn1 {
+    background-color: rgb(244, 208, 63) ;
+ }
  
       
 
