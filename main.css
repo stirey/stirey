@@ -79,7 +79,7 @@ body, html {
      
  }
 #clifton {
-    font-size: 1vw;
+    font-size: .8vw;
 }
 
 .aboutMeSection {
@@ -100,7 +100,7 @@ body, html {
 .col-sm {
     color: rgb(70, 66, 71);
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.25vw;
+    font-size: 1vw;
 }
    
  
@@ -172,11 +172,6 @@ body, html {
     border: 2px dotted orange;
 }      
   
-
-
-
-
- 
 .expSection {
     display: flexbox;
     background-color: rgb(174, 182, 191);
@@ -194,11 +189,13 @@ body, html {
    justify-content: center;
    padding-top: 130px;
    border: 2px dotted  rgb(70, 66, 71);
+   transition: .3s;
 }
 
 .circle2:hover {
 background-color: rgb(218, 29, 155);
 color: white;   
+
 }
 
 .circle2 h2 {
@@ -210,6 +207,7 @@ color: white;
 .circle2 h2:hover {
     color: white;
     text-align: center;
+    
 }
 
 
